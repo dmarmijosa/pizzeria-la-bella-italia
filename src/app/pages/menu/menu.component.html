@@ -1,0 +1,116 @@
+<section class="contenedor contenido-principal ">
+    <div id="menuCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="20000" id="item1">
+                <h2>{{'menu.nuestras' | translate | capitalize}}<span>{{'menu.pizzas' | translate | capitalize}}</span></h2>
+                <div class="contenedor grid-menu">
+                    <section class="menu">
+                        <ul>
+                            <li *ngFor="let item of menu_nuestras_pizzas">
+                                <p class="nombre-producto"> {{item.nombre | translate | uppercase}}  <span *ngIf="item.ingredientes">[{{
+                                        getTranslatedIngredients(item.ingredientes) }}]</span></p>
+                                        <span class="puntos">{{item.puntos}}</span>
+                                <p class="precio">{{item.precio}}</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="carousel-item no-h4" data-bs-interval="20000" id="item2">
+                <div class="especiales">
+
+                    <h2>{{'menu.pizzas' | translate | capitalize}}<span>{{'menu.especiales' | translate | capitalize}}</span></h2>
+                </div>
+                <div class="contenedor grid-menu">
+                    <section class="menu">
+                        <ul>
+                            <li *ngFor="let item of menu_pizzas_especiales">
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                    <span *ngIf="item.ingredientes">[{{
+                                        getTranslatedIngredients(item.ingredientes) }}]</span>
+                                    </p>
+                                <p class="precio">{{item.precio}}</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="carousel-item no-h4" data-bs-interval="20000" id="item3">
+                <div class="contenedor grid-menu">
+                    <div class="tapas">
+
+                        <h2>{{'menu.nuestras' | translate | capitalize}}<span>{{'menu.tapas' | translate | capitalize}}</span></h2>
+                    </div>
+                    <section class="menu">
+                        <ul>
+                            <li *ngFor="let item of menu_tapas">
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                    <span *ngIf="item.ingredientes">[{{
+                                        getTranslatedIngredients(item.ingredientes) }}]</span>
+                                    </p>
+                                <p class="precio">{{item.precio}}</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="postres">
+
+                        <h2>{{'menu.nuestros' | translate | capitalize}}<span>{{'menu.postres' | translate | capitalize}}</span></h2>
+                    </div>
+                    <section class="menu">
+                        <ul>
+                            <li *ngFor="let item of menu_postres">
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                    <span *ngIf="item.ingredientes">[{{
+                                        getTranslatedIngredients(item.ingredientes) }}]</span>
+                                    </p>
+                                <p class="precio">{{item.precio}}</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="bebidas">
+                        <h2>{{'menu.nuestras' | translate | capitalize}}<span>{{'menu.bebidas' | translate | capitalize}}</span></h2>
+                    </div>
+                    <section class="menu">
+                        <ul>
+                            <li *ngFor="let item of menu_bebidas">
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                    <span *ngIf="item.ingredientes">[{{
+                                        getTranslatedIngredients(item.ingredientes) }}]</span>
+                                    </p>
+                                <p class="precio">{{item.precio}}</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="menu">
+                        <div class="vinos">
+
+                            <h2>{{'menu.nuestros' | translate | capitalize}}<span>{{'menu.vinos' | translate | capitalize}}</span></h2>
+                        </div>
+                        <ul>
+                            <li *ngFor="let item of menu_vino">
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                    <span *ngIf="item.ingredientes">[{{
+                                        getTranslatedIngredients(item.ingredientes) }}]</span>
+                                    </p>
+                                <p class="precio">{{item.precio}}</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <h4 *ngIf="activeCarouselItem === 'item1' || activeCarouselItem === 'item2'"> + {{'menu.ingredientes' | translate}} <span>1,00€</span></h4>
+       
+        <button class="carousel-control-prev btn-primary" type="button" data-bs-target="#menuCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#menuCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+
+        </button>
+    </div>
+</section>

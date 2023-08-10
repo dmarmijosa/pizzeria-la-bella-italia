@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@use 'assets/scss/base';
+@use 'assets/scss/home';
+@use 'assets/scss/header';
+@use 'assets/scss/footer';
+@use 'assets/scss/internas';
+@use 'assets/scss/utilidades';
+@import '~bootstrap/dist/css/bootstrap.css';
+title {
+    font-family: 'Great Vibes',cursive , sans-serif;
+    color: #333; /* Cambia el color del texto según tus necesidades */
+    font-size: 24px; /* Cambia el tamaño del texto según tus necesidades */
+  }

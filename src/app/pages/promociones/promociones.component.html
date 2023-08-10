@@ -1,0 +1,53 @@
+<section class="contenedor contenido-principal">
+    <h2><span>{{'home.titulo1-p' | translate | uppercase}}</span>{{'home.titulo1-span' | translate | uppercase}}</h2>
+    <div class="promociones">
+        <div class="imagen">
+            <p>{{'home.dia-martes' | translate | uppercase}} <span>3X2</span></p>
+        </div>
+        <div class="imagen">
+            <p>{{'home.dia-miercoles' | translate | uppercase}} <span>{{'home.promocion-miercoles' | translate |
+                    capitalize}}</span></p>
+        </div>
+        <div class="imagen">
+            <p>{{'home.dia-jueves' | translate | uppercase}} <span>{{'home.promocion-jueves'|translate | capitalize
+                    }}</span></p>
+        </div>
+        <div class="imagen">
+            <p>{{'home.menu-familiar.menu-familiar' | translate | uppercase}}</p>
+            <div class="menu-familiar">
+                <div class="menu-item">
+                    <p>{{'home.menu-familiar.menu-familiar-item1' | translate | uppercase}}</p>
+                    <span>{{'home.menu-familiar.menu-familiar-item1-condicion' | translate | capitalize}}</span>
+                </div>
+                <div class="menu-item">
+                    <p>{{'home.menu-familiar.menu-familiar-item2' | translate | uppercase}}</p>
+                </div>
+                <div class="menu-item">
+                    <p>{{'home.menu-familiar.menu-familiar-item3' | translate | uppercase}}</p>
+                    <span>{{'home.menu-familiar.menu-familiar-item3-condicion' | translate | capitalize}}</span>
+                </div>
+                <h2>16.90€</h2>
+            </div>
+        </div>
+        <div class="imagen">
+            <p>{{'home.menu-pareja.menu-pareja' | translate | uppercase}}</p>
+            <div class="menu-familiar">
+                <div class="menu-item">
+                    <p>{{'home.menu-pareja.menu-pareja-item1' | translate | uppercase}}</p>
+                    <ul>
+                        <li *ngFor="let i of [1,2,3,4,5]">- {{('home.menu-pareja.menu-pareja-item1-condicion'+i) |
+                            translate | capitalize}}</li>
+                    </ul>
+                    <p>{{'home.menu-pareja.menu-pareja-item2' | translate | uppercase}}</p>
+                    <ul>
+                        <li *ngFor="let i of [1,2,3]">- {{('home.menu-pareja.menu-pareja-item2-condicion'+i) |
+                            translate | capitalize}}</li>
+                    </ul>
+                    <p>{{'home.menu-pareja.menu-pareja-item3' | translate | uppercase}}</p>
+                    <h2>15.90€</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</section>

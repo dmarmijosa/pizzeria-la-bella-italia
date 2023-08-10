@@ -1,0 +1,28 @@
+<header class="header header-inicio">
+    <div class="contenedor contenido-header">
+        <div class="barra">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="Logo cafeteria">
+                <p> <span>Pizzeria</span> {{ 'La bella italia' | titlecase }} </p>
+            </div>
+            <nav class="nav-principal">
+                <a (click)="scrollToContent()" routerLinkActive="activo" [routerLinkActiveOptions]="{exact: true}" routerLink="/"> {{'navegacion.inicio' | translate | uppercase}}</a>
+                <a (click)="scrollToContent()" routerLinkActive="activo" [routerLinkActiveOptions]="{exact: true}" routerLink="/promociones"> {{'navegacion.promociones' | translate | uppercase}}</a>
+                <a (click)="scrollToContent()" routerLinkActive="activo" [routerLinkActiveOptions]="{exact: true}" routerLink="/menu"> {{'navegacion.menu' | translate | uppercase}}</a>
+                <a (click)="scrollToContent()" routerLinkActive="activo" [routerLinkActiveOptions]="{exact: true}" routerLink="/contacto"> {{'navegacion.contacto' | translate | uppercase}}</a>
+                <select [(ngModel)]="selectedValue" [ngClass]="{'not-selected': !selectedValue}" #languageSelect (change)="changeLanguage(languageSelect.value)">
+                    <option value selected disabled>{{'navegacion.idioma'| translate}}</option>
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                    <option value="ca">Català</option>
+                    <option value="de">Deutsch</option>
+                    <option value="it">Italiano</option>
+                    <option value="fra">Français</option>
+                </select>
+            </nav>
+                </div>
+                <div class="texto-header">
+            <h1>{{"hero.titulo"| translate}}</h1>
+        </div>
+    </div>
+</header>
