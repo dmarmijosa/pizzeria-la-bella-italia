@@ -17,8 +17,12 @@
 }
 .footer{
   .cierre{
-    margin: 0 3rem;
+    margin: 0 4rem;
+    margin-bottom: 4rem;
     font-weight: 900;
+    @include m.tablet{
+     margin-bottom: 1rem; 
+    }
   }
 }
 .footer-box {
