@@ -1,0 +1,144 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.promociones {
+  @include m.grid(1, 2rem);
+  .imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: v.$negro;
+      opacity: 0.6;
+    }
+    p {
+      position: relative;
+      line-height: 1;
+      font-family: v.$fuente_secundaria;
+      font-weight: 700;
+      color: v.$secundario;
+      font-size: 2.5rem;
+      text-align: center;
+      @include m.tablet {
+        font-size: 4rem;
+      }
+      span {
+        display: block;
+        color: v.$blanco;
+      }
+    }
+  }
+
+  .imagen:nth-child(1) {
+    background-image: url(../../img/promociones/promotion-tuesday.png);
+    @include m.tablet{
+      background-position: center;
+    }
+  }
+  .imagen:nth-child(2) {
+    background-image: url(../../../assets/img/promociones/all-pizzas.png);
+  }
+  .imagen:nth-child(3) {
+    background-image: url(../../../assets/img/promociones/buffet-libre-2.png);
+  }
+  .imagen:nth-child(4) {
+    background-image: url(../../../assets/img/promociones/one-famili-with-pizzas.png);
+    height: 50rem;
+    background-position: center;
+    .menu-familiar {
+      .menu-item {
+        margin-bottom: 1rem;
+      }
+      padding-left: 3rem;
+      p {
+        color: v.$blanco;
+        text-align: left;
+        font-size: 2rem;
+        margin: 0;
+        text-transform: uppercase;
+        @include m.tablet{
+          font-size: 3rem;
+        }
+      }
+      span {
+        position: relative;
+        padding-left: 2rem;
+        font-size: 1.2rem;
+        color: v.$blanco;
+        @include m.tablet{
+          font-size: 2rem;
+        }
+      }
+      h2 {
+        position: relative;
+        color: v.$blanco;
+        font-size: 6rem;
+        &::after {
+          display: none;
+        }
+        font-weight: 400;
+      }
+    }
+  }
+  .imagen:nth-child(5) {
+    background-image: url(../../../assets/img/promociones/two-pizzas.png);
+    height: 50rem;
+    background-position: center;
+    .menu-familiar {
+      .menu-item {
+        margin-bottom: 1rem;
+        position: relative;
+        li {
+          color: v.$blanco;
+          padding-left: 2rem;
+          font-size: 1.2rem;
+          @include m.tablet{
+            font-size: 2rem;
+          }
+        }
+      }
+      padding-left: 3rem;
+      p {
+        color: v.$blanco;
+        text-align: left;
+        font-size: 2rem;
+        margin: 0;
+        text-transform: uppercase;
+        @include m.tablet {
+          font-size: 3rem;
+        }
+      }
+      span {
+        padding-left: 2rem;
+        font-size: 1.2rem;
+        color: v.$blanco;
+        @include m.tablet {
+          font-size: 9rem;
+        }
+      }
+      h2 {
+        position: relative;
+        color: v.$blanco;
+        font-size: 6rem;
+        @include m.tablet{
+          margin-bottom: 2rem;
+        }
+        &::after {
+          display: none;
+        }
+        font-weight: 400;
+      }
+    }
+  }
+}

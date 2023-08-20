@@ -1,0 +1,54 @@
+@use '../base/mixins' as m;
+@use "../base/variables" as v;
+.barra{
+  display: flex;
+  flex-direction: column;
+  @include m.tablet{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+      //height: 15rem;
+      width: 20rem;
+    }
+    p{
+      text-align: center;
+      font-size: 2.8rem;
+      color: v.$blanco;
+      margin-bottom: 0;
+      font-weight: 400;
+      font-family: v.$fuente_logo;
+  
+    }
+    span{
+      display: block;
+      font-family: v.$fuente_principal;
+    }
+    width: 50%;
+    margin: 0 auto;
+    @include m.tablet{
+      flex-direction: row;
+      width: 40rem;
+      margin: 0;
+    }
+    
+  }
+  select{
+    background-color: transparent;
+    color: v.$blanco;
+    font-size: 2rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: auto;
+    &.not-selected{
+      width: 9rem;
+    }
+  }
+}
+

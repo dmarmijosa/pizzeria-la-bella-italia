@@ -1,0 +1,166 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.nuestro-menu {
+  background-repeat: no-repeat;
+  background-position: center 5rem, center 92%, 100%;
+  background-size: 200%;
+  padding: 15rem 2rem 20rem 2rem;
+
+  @include m.tablet {
+    padding: 15rem 0 20rem 0;
+    background-size: 100%;
+  }
+  @include m.desktop {
+    background-size: 50%, 50%, 100%;
+  }
+
+}
+h2{
+  margin: 0;
+}
+h4{
+  padding-top: 2rem;
+  color: v.$negro;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  span{
+    padding-left: 2rem;
+  }
+}
+.menu {
+  h3 {
+    color: v.$negro;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent; // Inicialmente transparente
+    transition: background-color 0.3s ease-in-out; // Transición pa
+    &:hover{
+      background-color: v.$primario;
+      padding: .4rem;
+      p{
+        color: v.$blanco;
+        label{
+          background-color: v.$secundario;
+          
+        }
+        span{
+          color: v.$blanco;
+
+        }
+      }
+    }
+    p {
+      color: v.$negro;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1.5;
+      margin: 0 0 0rem 0;
+      label{
+        background-color: v.$primario;
+        color: v.$blanco;
+        padding: 0.1rem;
+      }
+  
+      span {
+        font-size: 1.4rem;
+        display: block;
+        color: v.$secundario;
+        font-weight: 400;
+      }
+    }
+    .precio {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+  }
+}
+
+#menuCarousel {
+  position: relative;
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    background: none;
+  }
+  .carousel-control-next{
+    right:  -20px;
+  }
+  .carousel-control-prev{
+    left: -20px;
+  }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  background-color: red; // Cambia esto al color que quieras
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.especiales{
+  h2{
+    &::after{
+      content: "";
+      background-image: url("../../img/especial.png");
+    }
+  }
+}
+.tapas{
+  h2{
+    &::after{
+      content: "";
+      background-image: url("../../img/tapas.png");
+    }
+  }
+}
+
+.postres{
+  h2{
+    &::after{
+      content: "";
+      background-image: url("../../img/postres.png");
+    }
+  }
+}
+.bebidas{
+  h2{
+    &::after{
+      content: "";
+      background-image: url("../../img/bebidas.png");
+    }
+  }
+}
+.vinos{
+
+    h2{
+      &::after{
+        content: "";
+        background-image: url("../../img/vino.png");
+      }
+    }
+  
+}
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  content: "‹";
+  font-size: 3rem;
+  color: white; // Cambia esto al color que quieras
+}
+
+.carousel-control-next-icon:after {
+  content: "›";
+}
