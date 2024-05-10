@@ -6,7 +6,8 @@
     "menu": "Menü",
     "promociones": "Aktionen",
     "contacto": "Kontakt",
-    "idioma": "Sprache"
+    "idioma": "Sprache",
+    "novedad": "Neuheit"
   },
   "hero": {
     "titulo": "Genieße eine köstliche Original-Pizza"
@@ -66,26 +67,28 @@
     "sepia-en-bananas": "Tintenfisch in Bananensauce",
     "lengua-en-banana": "Zunge in Bananensauce",
     "cebolla-caramelizada": "Karamellisierte Zwiebel",
-    "patata":"Kartoffel",
-    "tres-croquetas":"Sobrasada und Maó Käse / Krake und karamellisierte Zwiebel / Huhn und Trüffel",
-    "carne-bolonesa-picante":"Scharfes Bolognese-Fleisch",
-    "pepitas-de-chocolate":"Schokoladenstückchen"
+    "patata": "Kartoffel",
+    "tres-croquetas": "Sobrasada und Maó Käse / Krake und karamellisierte Zwiebel / Huhn und Trüffel",
+    "carne-bolonesa-picante": "Scharfes Bolognese-Fleisch",
+    "pepitas-de-chocolate": "Schokoladenstückchen",
+    "manzana": "Apfel",
+    "perejil": "Petersilie"
   },
   "home": {
     "titulo1-p": "Entdecken Sie unsere",
     "titulo1-span": "Aktionen",
     "dia-martes": "Dienstag",
     "dia-miercoles": "Mittwoch",
-    "promocion-miercoles": "Alle Pizzas für €6,00",
+    "promocion-miercoles": "Alle Pizzas für €7,00",
     "dia-jueves": "Donnerstag",
-    "promocion-jueves": "All-you-can-eat Buffet + Getränk für €8,50 pro Person",
+    "promocion-jueves": "All-you-can-eat Buffet + Getränk für €9,50 pro Person",
     "menu-familiar": {
       "menu-familiar": "Familienmenü",
       "menu-familiar-item1": "1 Pizza von 60cm",
       "menu-familiar-item1-condicion": "Maximal 2 Zutaten zur Auswahl",
       "menu-familiar-item2": "+2 Portionen Pommes",
       "menu-familiar-item3": "+1 großes Getränk",
-      "menu-familiar-item3-condicion": "1,5 Liter Coca Cola"
+      "menu-familiar-item3-condicion": "1 Liter Coca Cola"
     },
     "menu-pareja": {
       "menu-pareja": "Paarmenü",
@@ -152,29 +155,26 @@
     "lengua": "Lengua (Estilo bananas)",
     "mency": "Mency",
     "golosa": "Golosa",
-    "bonta": "Bontá (blanca)"
+    "marlon_brando": "Marlon Brando",
+    "mediterranea": "Mediterran"
   },
   "tapas": {
+    "patatas-bravas": "Scharfe Kartoffeln",
+    "lasania": "Lasagne",
+    "parmigiana": "Parmigiana",
     "croqueta-de-patata": "Kartoffelkroketten (1 Stück)",
     "croqueta-de-pollo": "Hühnerkroketten (1 Stück)",
-    "tres-croquetas": "Drei Kroketten (3 Stück)",
-    "suppli-romani": "Supllì Romani",
-    "bomba": "Bomba (1 Stück)",
-    "zeppole": "Frittierter Pizzateig (7 Stück)",
+    "bomba": "Bombe (1 Stück)",
     "alitas-de-pollo-picante": "Scharfe Hühnerflügel (6 Stück)",
-    "alitas-de-pollo-barbacoa": "Barbecue Hühnerflügel (6 Stück)",
-    "nuggets-de-pollo": "Hühnernuggets (6 Stück)",
+    "alitas-de-pollo-barbacoa": "Hühnerflügel Barbecue (6 Stück)",
+    "nuggets-de-pollo": "Hähnchen-Nuggets (6 Stück)",
     "patatas-fritas": "Pommes frites",
-    "anillos-de-cebolla": "Zwiebelringe",
-    "porcion-de-pizza": "Pizzastück",
-    "calzone-frito": "Frittierter Calzone"
+    "anillos-de-cebolla": "Zwiebelringe"
   },
   "postres-caseros": {
     "tiramisu": "Tiramisu",
-    "bomba-frita": "Frittierte Bombe mit Nutella oder weißer Schokolade",
-    "canelon-sicilano": "Sizilianische Cannelloni",
-    "tarta-de-manzana": "Apfelkuchen",
-    "rollo-de-nutella": "Nutella-Rolle"
+    "panacotta": "Pannacotta mit Waldfrüchten",
+    "bomba-frita": "Frittierte Bombe mit Nutella oder weißer Schokolade"
   },
   "bebidas": {
     "cerveza-italiana": "Italienisches Bier (33cl)",
@@ -184,7 +184,8 @@
     "nestea-maracuya": "NESTEA PASSIONSFRUCHT (33cl)",
     "agua-sin-gas": "STILLES WASSER (50cl)",
     "agua-sin-gas2": "STILLES WASSER (1,5l)",
-    "agua-con-gas": "Sprudelwasser (50cl)"
+    "agua-con-gas": "Sprudelwasser (50cl)",
+    "cola-zero": "Coca-Cola Zero"
   },
   "vino": {
     "pinot": "Pinot",
@@ -209,6 +210,7 @@
     "pueblo": "Ciutadella de Menorca",
     "horario": "Öffnungszeiten",
     "horario-abierto": "Jeden Tag geöffnet außer Montags",
+    "horarioVerano": "In den Monaten Juni, Juli und August täglich geöffnet",
     "hora-cierre": "von 18:00 bis Schließung.",
     "reparto": "Lieferung im Stadtgebiet",
     "sin-costo-reparto": "Kostenlos (ab 20:00 Uhr)",

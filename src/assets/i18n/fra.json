@@ -6,7 +6,8 @@
     "menu": "Menu",
     "promociones": "Promotions",
     "contacto": "Contact",
-    "idioma": "Langue"
+    "idioma": "Langue",
+    "novedad": "Nouveauté"
   },
   "hero": {
     "titulo": "Profitez d'une délicieuse pizza originale"
@@ -66,26 +67,28 @@
     "sepia-en-bananas": "Seiche en sauce de bananes",
     "lengua-en-banana": "Langue en sauce de bananes",
     "cebolla-caramelizada": "Oignon Caramélisé",
-    "patata":"Pomme de terre",
-    "tres-croquetas":"Sobrasada et Fromage de Maó / Poulpe et Oignon Caramélisé / Poulet et Truffe",
-    "carne-bolonesa-picante":"Viande bolognaise épicée",
-    "pepitas-de-chocolate":"Pépites de chocolat"
+    "patata": "Pomme de terre",
+    "tres-croquetas": "Sobrasada et Fromage de Maó / Poulpe et Oignon Caramélisé / Poulet et Truffe",
+    "carne-bolonesa-picante": "Viande bolognaise épicée",
+    "pepitas-de-chocolate": "Pépites de chocolat",
+    "manzana": "Pomme",
+    "perejil": "Persil"
   },
   "home": {
     "titulo1-p": "Découvrez nos",
     "titulo1-span": "promotions",
     "dia-martes": "Mardi",
     "dia-miercoles": "Mercredi",
-    "promocion-miercoles": "Toutes les pizzas à €6,00",
+    "promocion-miercoles": "Toutes les pizzas à €7,00",
     "dia-jueves": "Jeudi",
-    "promocion-jueves": "Buffet à volonté + boisson à €8,50 par personne",
+    "promocion-jueves": "Buffet à volonté + boisson à €9,50 par personne",
     "menu-familiar": {
       "menu-familiar": "Menu Familial",
       "menu-familiar-item1": "1 Pizza de 60cm",
       "menu-familiar-item1-condicion": "Maximum 2 ingrédients à choisir",
       "menu-familiar-item2": "+2 portions de frites",
       "menu-familiar-item3": "+1 grande boisson",
-      "menu-familiar-item3-condicion": "coca cola 1,5 litres"
+      "menu-familiar-item3-condicion": "coca cola 1 litre"
     },
     "menu-pareja": {
       "menu-pareja": "Menu couple",
@@ -152,29 +155,26 @@
     "lengua": "Lengua (Estilo bananas)",
     "mency": "Mency",
     "golosa": "Golosa",
-    "bonta": "Bontá (blanca)"
+    "marlon_brando": "Marlon Brando",
+    "mediterranea": "Méditerranéenne"
   },
   "tapas": {
+    "patatas-bravas": "Pommes de terre épicées",
+    "lasania": "Lasagne",
+    "parmigiana": "Parmigiana",
     "croqueta-de-patata": "Croquette de pomme de terre (1 unité)",
     "croqueta-de-pollo": "Croquette de poulet (1 unité)",
-    "tres-croquetas": "Trois croquettes (3 unités)",
-    "suppli-romani": "Supllì Romani",
-    "bomba": "Bomba (1 unité)",
-    "zeppole": "Pâte à pizza frite (7 unités)",
+    "bomba": "Bombe (1 unité)",
     "alitas-de-pollo-picante": "Ailes de poulet épicées (6 unités)",
     "alitas-de-pollo-barbacoa": "Ailes de poulet barbecue (6 unités)",
     "nuggets-de-pollo": "Nuggets de poulet (6 unités)",
     "patatas-fritas": "Frites",
-    "anillos-de-cebolla": "Anneau d'oignon",
-    "porcion-de-pizza": "Portion de pizza",
-    "calzone-frito": "Calzone frit"
+    "anillos-de-cebolla": "Anneaux d'oignon"
   },
   "postres-caseros": {
     "tiramisu": "Tiramisu",
-    "bomba-frita": "Bombe frite au nutella ou chocolat blanc",
-    "canelon-sicilano": "Cannelloni sicilien",
-    "tarta-de-manzana": "Tarte aux pommes",
-    "rollo-de-nutella": "Rouleau de Nutella"
+    "panacotta": "Pannacotta aux fruits des bois",
+    "bomba-frita": "Bombe frite au Nutella ou chocolat blanc"
   },
   "bebidas": {
     "cerveza-italiana": "Bière italienne (33cl)",
@@ -184,7 +184,8 @@
     "nestea-maracuya": "NESTEA PASSION (33cl)",
     "agua-sin-gas": "EAU PLATE (50cl)",
     "agua-sin-gas2": "EAU PLATE (1,5l)",
-    "agua-con-gas": "Eau gazeuse (50cl)"
+    "agua-con-gas": "Eau gazeuse (50cl)",
+    "cola-zero": "Coca-Cola Zéro"
   },
   "vino": {
     "pinot": "Pinot",
@@ -209,6 +210,7 @@
     "pueblo": "Ciutadella de Menorca",
     "horario": "Horaires",
     "horario-abierto": "Ouvert tous les jours sauf le lundi",
+    "horarioVerano": "Ouvert tous les jours pendant les mois de juin, juillet et août",
     "hora-cierre": "de 18:00 à la fermeture.",
     "reparto": "Livraison en zone urbaine",
     "sin-costo-reparto": "Gratuit (à partir de 20:00)",

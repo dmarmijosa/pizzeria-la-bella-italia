@@ -6,7 +6,8 @@
     "menu": "Menu",
     "promociones": "Promotions",
     "contacto": "Contact",
-    "idioma": "Language"
+    "idioma": "Language",
+    "novedad":"New"
   },
   "hero": {
     "titulo": "Enjoy an original delicious pizza"
@@ -69,23 +70,25 @@
     "patata":"Potato",
     "tres-croquetas":"Sobrasada and Maó Cheese / Octopus and Caramelized Onion / Chicken and Truffle",
     "carne-bolonesa-picante":"Spicy Bolognese meat",
-    "pepitas-de-chocolate":"Chocolate chips"
+    "pepitas-de-chocolate":"Chocolate chips",
+    "manzana":"Apple",
+    "perejil":"Parsley"
   },
   "home": {
     "titulo1-p": "Discover our",
     "titulo1-span": "promotions",
     "dia-martes": "Tuesday",
     "dia-miercoles": "Wednesday",
-    "promocion-miercoles": "All pizzas for €6.00",
+    "promocion-miercoles": "All pizzas for €7.00",
     "dia-jueves": "Thursday",
-    "promocion-jueves": "All-you-can-eat buffet + drink for €8.50 per person",
+    "promocion-jueves": "All-you-can-eat buffet + drink for €9.50 per person",
     "menu-familiar": {
       "menu-familiar": "Family Menu",
       "menu-familiar-item1": "1 60cm Pizza",
       "menu-familiar-item1-condicion": "Maximum 2 ingredients to choose",
       "menu-familiar-item2": "+2 portions of chips",
       "menu-familiar-item3": "+1 large drink",
-      "menu-familiar-item3-condicion": "1.5 liters coca cola"
+      "menu-familiar-item3-condicion": "1 liter coca cola"
     },
     "menu-pareja": {
       "menu-pareja": "Couple's Menu",
@@ -152,31 +155,27 @@
     "lengua":"Lengua (Estilo bananas)",
     "mency":"Mency",
     "golosa":"Golosa",
-    "bonta":"Bontá (blanca)"
+    "marlon_brando": "Marlon Brando",
+    "mediterranea":"Mediterranean"
   },
   "tapas": {
+    "patatas-bravas": "Spicy Potatoes",
+    "lasania": "Lasagna",
+    "parmigiana": "Parmigiana",
     "croqueta-de-patata": "Potato croquette (1 unit)",
     "croqueta-de-pollo": "Chicken croquette (1 unit)",
-    "tres-croquetas": "Three croquettes (3 units)",
-    "suppli-romani": "Supllì Romani",
-    "bomba": "Bomba (1 unit)",
-    "zeppole": "Fried pizza dough (7 units)",
+    "bomba": "Bomb (1 unit)",
     "alitas-de-pollo-picante": "Spicy chicken wings (6 units)",
     "alitas-de-pollo-barbacoa": "Barbecue chicken wings (6 units)",
     "nuggets-de-pollo": "Chicken nuggets (6 units)",
-    "patatas-fritas": "Fried potatoes",
-    "anillos-de-cebolla": "Onion ring",
-    "porcion-de-pizza": "Pizza slice",
-    "calzone-frito": "Fried calzone"
+    "patatas-fritas": "French fries",
+    "anillos-de-cebolla": "Onion rings"
   },
   "postres-caseros": {
     "tiramisu": "Tiramisu",
-    "bomba-frita": "Fried bomb with nutella or white chocolate",
-    "canelon-sicilano": "Sicilian cannelloni",
-    "tarta-de-manzana": "Apple pie",
-    "rollo-de-nutella": "Nutella roll"
-  },
-  "bebidas": {
+    "panacotta": "Pannacotta with forest fruits",
+    "bomba-frita": "Fried bomb with Nutella or white chocolate"
+},"bebidas": {
     "cerveza-italiana": "Italian beer (33cl)",
     "cerveza-estella": "Star beer (33cl)",
     "cola": "COLA / LEMON / ORANGE (33cl)",
@@ -184,7 +183,8 @@
     "nestea-maracuya": "NESTEA PASSION FRUIT (33cl)",
     "agua-sin-gas": "STILL WATER (50cl)",
     "agua-sin-gas2": "STILL WATER (1.5l)",
-    "agua-con-gas": "Sparkling water (50cl)"
+    "agua-con-gas": "Sparkling water (50cl)",
+    "cola-zero": "Coca-Cola Zero"
   },
   "vino": {
     "pinot": "Pinot",
@@ -209,6 +209,7 @@
     "pueblo": "Ciutadella de Menorca",
     "horario": "schedule",
     "horario-abierto": "Open every day except Mondays",
+    "horarioVerano":"Open every day during the months of June, July and August",
     "hora-cierre": "from 18:00 to Closing.",
     "reparto": "Delivery in urban area",
     "sin-costo-reparto": "Free of charge (from 20:00)",

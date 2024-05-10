@@ -43,6 +43,10 @@
     font-size: 2rem;
     margin: 0;
   }
+  .verano{
+    border: 1px solid v.$primario;
+    margin: 1rem;
+  }
 }
 .copyright {
   @include m.tablet {

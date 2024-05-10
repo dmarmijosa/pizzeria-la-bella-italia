@@ -6,7 +6,8 @@
     "menu": "Menú",
     "promociones": "Promocions",
     "contacto": "Contacte",
-    "idioma": "Idioma"
+    "idioma": "Idioma",
+    "novedad": "Novetat"
   },
   "hero": {
     "titulo": "Gaudeix d'una deliciosa pizza original"
@@ -69,23 +70,25 @@
     "patata": "Patata",
     "tres-croquetas": "Sobrassada i Formatge de Maó / Pop i Ceba Caramel·litzada / Pollastre i Tòfona",
     "carne-bolonesa-picante": "Carn bolonyesa picant",
-    "pepitas-de-chocolate": "Pepites de xocolata"
+    "pepitas-de-chocolate": "Pepites de xocolata",
+    "manzana": "Poma",
+    "perejil": "Julivert"
   },
   "home": {
     "titulo1-p": "Descobreix les nostres",
     "titulo1-span": "promocions",
     "dia-martes": "Dimarts",
     "dia-miercoles": "Dimecres",
-    "promocion-miercoles": "Totes les pizzes per €6,00",
+    "promocion-miercoles": "Totes les pizzes per €7,00",
     "dia-jueves": "Dijous",
-    "promocion-jueves": "Bufet lliure + beguda per €8,50 per persona",
+    "promocion-jueves": "Bufet lliure + beguda per €9,50 per persona",
     "menu-familiar": {
       "menu-familiar": "Menú Familiar",
       "menu-familiar-item1": "1 Pizza de 60cm",
       "menu-familiar-item1-condicion": "Màxim 2 ingredients a triar",
       "menu-familiar-item2": "+2 racions de patates",
       "menu-familiar-item3": "+1 beguda gran",
-      "menu-familiar-item3-condicion": "coca cola 1,5 litres"
+      "menu-familiar-item3-condicion": "coca cola 1 litre"
     },
     "menu-pareja": {
       "menu-pareja": "Menú parella",
@@ -152,29 +155,26 @@
     "lengua": "Lengua (Estilo bananas)",
     "mency": "Mency",
     "golosa": "Golosa",
-    "bonta": "Bontá (blanca)"
+    "marlon_brando": "Marlon Brando",
+    "mediterranea": "Mediterrània"
   },
   "tapas": {
+    "patatas-bravas": "Patates Braves",
+    "lasania": "Lasanya",
+    "parmigiana": "Parmigiana",
     "croqueta-de-patata": "Croqueta de patata (1 unitat)",
     "croqueta-de-pollo": "Croqueta de pollastre (1 unitat)",
-    "tres-croquetas": "Tres croquetes (3 unitats)",
-    "suppli-romani": "Supllì Romani",
     "bomba": "Bomba (1 unitat)",
-    "zeppole": "Massa de pizza fregida (7 unitats)",
-    "alitas-de-pollo-picante": "Ales de pollastre picants (6 unitats)",
-    "alitas-de-pollo-barbacoa": "Ales de pollastre barbacoa (6 unitats)",
+    "alitas-de-pollo-picante": "Aletes de pollastre picant (6 unitats)",
+    "alitas-de-pollo-barbacoa": "Aletes de pollastre barbacoa (6 unitats)",
     "nuggets-de-pollo": "Nuggets de pollastre (6 unitats)",
     "patatas-fritas": "Patates fregides",
-    "anillos-de-cebolla": "Anell de ceba",
-    "porcion-de-pizza": "Porció de pizza",
-    "calzone-frito": "Calzone fregit"
+    "anillos-de-cebolla": "Anells de ceba"
   },
   "postres-caseros": {
     "tiramisu": "Tiramisú",
-    "bomba-frita": "Bomba fregida de nutella o xocolata blanca",
-    "canelon-sicilano": "Caneló sicilià",
-    "tarta-de-manzana": "Pastís de poma",
-    "rollo-de-nutella": "Rotllo de Nutella"
+    "panacotta": "Panacotta amb fruita del bosc",
+    "bomba-frita": "Bomba fregida de nutella o xocolata blanca"
   },
   "bebidas": {
     "cerveza-italiana": "Cervesa Italiana (33cl)",
@@ -184,7 +184,8 @@
     "nestea-maracuya": "NESTEA MARACUYÀ (33cl)",
     "agua-sin-gas": "AIGUA SENSE GAS (50cl)",
     "agua-sin-gas2": "AIGUA SENSE GAS (1,5l)",
-    "agua-con-gas": "Aigua amb gas (50cl)"
+    "agua-con-gas": "Aigua amb gas (50cl)",
+    "cola-zero": "Coca-cola Zero"
   },
   "vino": {
     "pinot": "Pinot",
@@ -209,6 +210,7 @@
     "pueblo": "Ciutadella de Menorca",
     "horario": "horari",
     "horario-abierto": "Obert cada dia excepte els Dilluns",
+    "horarioVerano": "Obert tots els dies els mesos de juny, juliol i agost",
     "hora-cierre": "de 18:00 a Tancament.",
     "reparto": "Repartiment en casc urbà",
     "sin-costo-reparto": "Sense cost (a partir de les 20:00)",

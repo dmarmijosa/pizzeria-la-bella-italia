@@ -6,7 +6,8 @@
     "menu": "Menú",
     "promociones": "Promociones",
     "contacto": "contacto",
-    "idioma": "idioma"
+    "idioma": "idioma",
+    "novedad":"Novedad"
   },
   "hero": {
     "titulo": "Disfruta de una deliciosa pizza original"
@@ -69,23 +70,25 @@
     "patata":"Patata",
     "tres-croquetas":"Sobrasada y Queso de Maó / Pulpo y Cebolla Caramelizada / Pollo y Trufa",
     "carne-bolonesa-picante":"Carne boloñesa picante",
-    "pepitas-de-chocolate":"Pepitas de chocolate"
+    "pepitas-de-chocolate":"Pepitas de chocolate",
+    "manzana":"Manzana",
+    "perejil":"Perejil"
   },
   "home": {
     "titulo1-p": "Conoce nuestras",
     "titulo1-span": "promociones",
     "dia-martes": "Martes",
     "dia-miercoles": "Miércoles",
-    "promocion-miercoles": "Todas las pizzas a 6,00€",
+    "promocion-miercoles": "Todas las pizzas a 7,00€",
     "dia-jueves": "Jueves",
-    "promocion-jueves": "Buffet Libre + bebida 8,50€ por persona",
+    "promocion-jueves": "Buffet Libre + bebida 9,50€ por persona",
     "menu-familiar": {
       "menu-familiar": "Menú Familiar",
       "menu-familiar-item1": "1 Pizza de 60cm",
       "menu-familiar-item1-condicion": "Máximo 2 ingredientes a elegir",
       "menu-familiar-item2": "+2 raciones de patatas",
       "menu-familiar-item3": "+1 bebida grande",
-      "menu-familiar-item3-condicion": "coca cola 1,5 litros"
+      "menu-familiar-item3-condicion": "coca cola 1 litro"
     },
     "menu-pareja": {
       "menu-pareja": "Menú pareja",
@@ -152,29 +155,26 @@
     "lengua": "Lengua (Estilo bananas)",
     "mency": "Mency",
     "golosa": "Golosa",
-    "bonta": "Bontá (blanca)"
+    "marlon_brando": "Marlon Brando",
+    "mediterranea":"Mediterránea"
   },
   "tapas": {
+    "patatas-bravas":"Patatas Bravas",
+    "lasania":"Lasaña",
+    "parmigiana":"Parmigiana",
     "croqueta-de-patata": "Croqueta de patata (1 unidad)",
     "croqueta-de-pollo": "Croqueta de pollo (1 unidad)",
-    "tres-croquetas": "Tres croquetas (3 unidades)",
-    "suppli-romani": "Supllì Romani",
     "bomba": "Bomba (1 unidad)",
-    "zeppole": "Massa de pizza frita (7 unidades)",
     "alitas-de-pollo-picante": "Alitas de pollo picante (6 unidades)",
     "alitas-de-pollo-barbacoa": "Alitas de pollo barbacoa (6 unidades)",
     "nuggets-de-pollo": "Nuggets de pollo (6 unidades)",
     "patatas-fritas": "Patatas fritas",
-    "anillos-de-cebolla": "Anillo de cebolla",
-    "porcion-de-pizza": "Porción de pizza",
-    "calzone-frito": "Calzone frito"
+    "anillos-de-cebolla": "Anillos de cebolla"
   },
   "postres-caseros": {
     "tiramisu": "Tiramisú",
-    "bomba-frita": "Bomba frit de nutella o chocolate blanco",
-    "canelon-sicilano": "Canelón sicilano",
-    "tarta-de-manzana": "Tarta de manzana",
-    "rollo-de-nutella": "Rollo de Nutella"
+    "panacotta": "Panacotta con fruta del bosque",
+    "bomba-frita": "Bomba frita de nutella o chocolate blanco"
   },
   "bebidas": {
     "cerveza-italiana": "Cerveza Italiana (33cl)",
@@ -184,7 +184,8 @@
     "nestea-maracuya": "NESTEA MARACUYÁ (33cl)",
     "agua-sin-gas": "AGUA SIN GAS (50cl)",
     "agua-sin-gas2": "AGUA SIN GAS (1,5l)",
-    "agua-con-gas": "Agua con gas (50cl)"
+    "agua-con-gas": "Agua con gas (50cl)",
+    "cola-zero":"Coca-cola zero"
   },
   "vino": {
     "pinot": "Pinot",
@@ -209,6 +210,7 @@
     "pueblo":"Ciutadella de Menorca",
     "horario":"horario",
     "horario-abierto":"Abierto cada día excepto los Lunes",
+    "horarioVerano":"Abierto todos los días los meses de Junio, Julio y Agosto",
     "hora-cierre":"de 18:00 a Cierre.",
     "reparto":"Reparto en casco urbano",
     "sin-costo-reparto":"Sin costo (a partir de las 20:00)",

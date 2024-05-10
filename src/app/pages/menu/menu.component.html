@@ -25,7 +25,7 @@
                     <section class="menu">
                         <ul>
                             <li *ngFor="let item of menu_pizzas_especiales">
-                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">{{'navegacion.novedad' | translate}}</label>
                                     <span *ngIf="item.ingredientes">[{{
                                         getTranslatedIngredients(item.ingredientes) }}]</span>
                                     </p>
@@ -44,7 +44,7 @@
                     <section class="menu">
                         <ul>
                             <li *ngFor="let item of menu_tapas">
-                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">{{'navegacion.novedad' | translate }}</label>
                                     <span *ngIf="item.ingredientes">[{{
                                         getTranslatedIngredients(item.ingredientes) }}]</span>
                                     </p>
@@ -59,7 +59,7 @@
                     <section class="menu">
                         <ul>
                             <li *ngFor="let item of menu_postres">
-                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">{{'navegacion.novedad' | translate }}</label>
                                     <span *ngIf="item.ingredientes">[{{
                                         getTranslatedIngredients(item.ingredientes) }}]</span>
                                     </p>
@@ -73,7 +73,7 @@
                     <section class="menu">
                         <ul>
                             <li *ngFor="let item of menu_bebidas">
-                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">{{'navegacion.novedad' | translate }}</label>
                                     <span *ngIf="item.ingredientes">[{{
                                         getTranslatedIngredients(item.ingredientes) }}]</span>
                                     </p>
@@ -88,7 +88,7 @@
                         </div>
                         <ul>
                             <li *ngFor="let item of menu_vino">
-                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">Novedad</label>
+                                <p>{{item.nombre | translate | uppercase}}  <label *ngIf="item.promocion">{{'navegacion.novedad' |translate}}</label>
                                     <span *ngIf="item.ingredientes">[{{
                                         getTranslatedIngredients(item.ingredientes) }}]</span>
                                     </p>
