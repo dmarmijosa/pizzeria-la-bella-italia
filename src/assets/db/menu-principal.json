@@ -389,7 +389,7 @@
         "ingredientes.mozarella",
         "ingredientes.frankfurt"
       ],
-      "precio": "8,30€",
+      "precio": "9,00€",
       "promocion": false
     },
     {
@@ -400,7 +400,7 @@
         "ingredientes.beicon",
         "ingredientes.salsa-barbacoa"
       ],
-      "precio": "8,50€",
+      "precio": "9,00€",
       "promocion": false
     },
     {
@@ -411,7 +411,7 @@
         "ingredientes.pesto",
         "ingredientes.cherry"
       ],
-      "precio": "9,00€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -421,7 +421,7 @@
         "ingredientes.champinones",
         "ingredientes.trufa"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -431,17 +431,7 @@
         "ingredientes.mozarella",
         "ingredientes.sepia-en-bananas"
       ],
-      "precio": "10,00€",
-      "promocion": false
-    },
-    {
-      "nombre": "pizzas-especiales.lengua",
-      "ingredientes": [
-        "ingredientes.tomate",
-        "ingredientes.mozarella",
-        "ingredientes.lengua-en-banana"
-      ],
-      "precio": "9,50€",
+      "precio": "10,50€",
       "promocion": false
     },
     {
@@ -452,7 +442,7 @@
         "ingredientes.queso-de-cabra",
         "ingredientes.cebolla-caramelizada"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -463,7 +453,7 @@
         "ingredientes.beicon",
         "ingredientes.gorgonzola"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -474,7 +464,7 @@
         "ingredientes.cebolla-caramelizada",
         "ingredientes.queso-de-cabra"
       ],
-      "precio": "9,50€",
+      "precio": "10s,00€",
       "promocion": true
     },
     {
