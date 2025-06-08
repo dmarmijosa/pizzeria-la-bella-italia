@@ -201,7 +201,8 @@
     "postres": "Postres",
     "bebidas": "Begudes",
     "vinos": "Vins",
-    "ingredientes": "ingredients extres (Peix/carn formatge)"
+    "ingredientes-single": "Ingredients extres ",
+    "ingredientes": "Ingredients extres (Peix/Carn/Formatge)"
   },
   "contacto": {
     "contacto": "Contacte",

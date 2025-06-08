@@ -7,7 +7,7 @@
     "promociones": "Promotions",
     "contacto": "Contact",
     "idioma": "Language",
-    "novedad":"New"
+    "novedad": "New"
   },
   "hero": {
     "titulo": "Enjoy an original delicious pizza"
@@ -67,12 +67,12 @@
     "sepia-en-bananas": "Cuttlefish in banana sauce",
     "lengua-en-banana": "Tongue in banana sauce",
     "cebolla-caramelizada": "Caramelized Onion",
-    "patata":"Potato",
-    "tres-croquetas":"Sobrasada and Maó Cheese / Octopus and Caramelized Onion / Chicken and Truffle",
-    "carne-bolonesa-picante":"Spicy Bolognese meat",
-    "pepitas-de-chocolate":"Chocolate chips",
-    "manzana":"Apple",
-    "perejil":"Parsley"
+    "patata": "Potato",
+    "tres-croquetas": "Sobrasada and Maó Cheese / Octopus and Caramelized Onion / Chicken and Truffle",
+    "carne-bolonesa-picante": "Spicy Bolognese meat",
+    "pepitas-de-chocolate": "Chocolate chips",
+    "manzana": "Apple",
+    "perejil": "Parsley"
   },
   "home": {
     "titulo1-p": "Discover our",
@@ -132,31 +132,31 @@
     "calzone-huevo": "Calzone Huevo",
     "pizza-familiar": "Pizza familiar 60 cm (max. 2 ingredientes a elegir)"
   },
-  "pizzas-especiales":{
-    "carnonara":"Carbonara",
-    "menorquina":"Menorquina",
-    "focaccia":"Focaccia (blanca)",
-    "palermo":"Palermo",
-    "mamma-mia":"Mamma mia",
-    "kebab":"Kebab",
-    "fresca-fresca":"Fresca Fresca",
-    "la-buena":"La buena",
-    "la-blanca":"La blanca",
-    "pizza-nutella":"Pizza nutella",
-    "la-super":"La super",
-    "la-playa":"La playa",
-    "gustosa":"Gustosa (blanca)",
-    "frankfurt":"Frankfurt",
-    "barbacoa":"Barbacoa",
-    "italia":"Italia",
-    "umbria":"Umbria (Blanca)",
-    "la-preciosa":"La preciosa",
-    "sepia":"Sepia (Estilo bananas)",
-    "lengua":"Lengua (Estilo bananas)",
-    "mency":"Mency",
-    "golosa":"Golosa",
+  "pizzas-especiales": {
+    "carnonara": "Carbonara",
+    "menorquina": "Menorquina",
+    "focaccia": "Focaccia (blanca)",
+    "palermo": "Palermo",
+    "mamma-mia": "Mamma mia",
+    "kebab": "Kebab",
+    "fresca-fresca": "Fresca Fresca",
+    "la-buena": "La buena",
+    "la-blanca": "La blanca",
+    "pizza-nutella": "Pizza nutella",
+    "la-super": "La super",
+    "la-playa": "La playa",
+    "gustosa": "Gustosa (blanca)",
+    "frankfurt": "Frankfurt",
+    "barbacoa": "Barbacoa",
+    "italia": "Italia",
+    "umbria": "Umbria (Blanca)",
+    "la-preciosa": "La preciosa",
+    "sepia": "Sepia (Estilo bananas)",
+    "lengua": "Lengua (Estilo bananas)",
+    "mency": "Mency",
+    "golosa": "Golosa",
     "marlon_brando": "Marlon Brando",
-    "mediterranea":"Mediterranean"
+    "mediterranea": "Mediterranean"
   },
   "tapas": {
     "patatas-bravas": "Spicy Potatoes",
@@ -175,7 +175,8 @@
     "tiramisu": "Tiramisu",
     "panacotta": "Pannacotta with forest fruits",
     "bomba-frita": "Fried bomb with Nutella or white chocolate"
-},"bebidas": {
+  },
+  "bebidas": {
     "cerveza-italiana": "Italian beer (33cl)",
     "cerveza-estella": "Star beer (33cl)",
     "cola": "COLA / LEMON / ORANGE (33cl)",
@@ -196,11 +197,12 @@
     "pizzas": "Pizzas",
     "especiales": "Specials",
     "nuestros": "Our",
-    "tapas": "Appetizers",  
+    "tapas": "Appetizers",
     "postres": "Desserts",
     "bebidas": "Drinks",
     "vinos": "Wines",
-    "ingredientes": "extra ingredients (Fish/meat cheese)"
+    "ingredientes-single": "Extra ingredients",
+    "ingredientes": "Extra ingredients (Fish/Meat/Cheese)"
   },
   "contacto": {
     "contacto": "Contact",
@@ -209,7 +211,7 @@
     "pueblo": "Ciutadella de Menorca",
     "horario": "schedule",
     "horario-abierto": "Open every day except Mondays",
-    "horarioVerano":"Open every day during the months of June, July and August",
+    "horarioVerano": "Open every day during the months of June, July and August",
     "hora-cierre": "from 18:00 to Closing.",
     "reparto": "Delivery in urban area",
     "sin-costo-reparto": "Free of charge (from 20:00)",

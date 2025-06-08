@@ -201,7 +201,8 @@
     "postres": "Desserts",
     "bebidas": "Boissons",
     "vinos": "Vins",
-    "ingredientes": "ingrédients supplémentaires (Poisson/viande fromage)"
+    "ingredientes-single": "Ingrédients supplémentaires ",
+    "ingredientes": "Ingrédients supplémentaires (Poisson/Viande/Fromage)"
   },
   "contacto": {
     "contacto": "Contact",

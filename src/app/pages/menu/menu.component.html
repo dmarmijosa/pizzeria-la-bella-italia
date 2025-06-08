@@ -20,7 +20,9 @@
                 <p class="precio">{{ item.precio }}</p>
               </li>
             </ul>
-            <h4>+ {{ "menu.ingredientes" | translate }} <span>2,00€</span></h4>
+            <h4>
+              + {{ "menu.ingredientes-single" | translate }} <span>2,00€</span>
+            </h4>
           </section>
         </div>
       </div>
@@ -47,6 +49,9 @@
                 <p class="precio">{{ item.precio }}</p>
               </li>
             </ul>
+            <h4 class="no-single">
+              + {{ "menu.ingredientes" | translate }} <span>1,00€</span>
+            </h4>
           </section>
         </div>
       </div>

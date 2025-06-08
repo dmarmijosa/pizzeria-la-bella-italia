@@ -27,7 +27,12 @@ h4 {
   span {
     padding-left: 2rem;
   }
+  &.no-single {
+    padding-top: 2rem !important;
+    text-align: center !important;
+  }
 }
+
 .menu {
   h3 {
     color: v.$negro;

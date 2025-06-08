@@ -201,7 +201,8 @@
     "postres": "Desserts",
     "bebidas": "Getränke",
     "vinos": "Weine",
-    "ingredientes": "zusätzliche Zutaten (Fisch/Fleisch Käse)"
+    "ingredientes-single": "Zusätzliche Zutaten",
+    "ingredientes": "Zusätzliche Zutaten (Fisch/Fleisch/Käse)"
   },
   "contacto": {
     "contacto": "Kontakt",

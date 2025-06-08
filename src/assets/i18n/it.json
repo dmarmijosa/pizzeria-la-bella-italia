@@ -201,7 +201,8 @@
     "postres": "Dolci",
     "bebidas": "Bevande",
     "vinos": "Vini",
-    "ingredientes": "ingredienti extra (Pesce/carne formaggio)"
+    "ingredientes-single": "Ingredienti extra ",
+    "ingredientes": "Ingredienti extra (Pesce/Carne/Formaggio)"
   },
   "contacto": {
     "contacto": "Contatto",

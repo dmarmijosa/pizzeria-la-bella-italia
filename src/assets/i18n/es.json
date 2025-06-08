@@ -7,7 +7,7 @@
     "promociones": "Promociones",
     "contacto": "contacto",
     "idioma": "idioma",
-    "novedad":"Novedad"
+    "novedad": "Novedad"
   },
   "hero": {
     "titulo": "Disfruta de una deliciosa pizza original"
@@ -67,12 +67,12 @@
     "sepia-en-bananas": "Sepia en salsa elaborada por bananas",
     "lengua-en-banana": "Lengua elaborada por bananas",
     "cebolla-caramelizada": "Cebolla Caramelizada",
-    "patata":"Patata",
-    "tres-croquetas":"Sobrasada y Queso de Maó / Pulpo y Cebolla Caramelizada / Pollo y Trufa",
-    "carne-bolonesa-picante":"Carne boloñesa picante",
-    "pepitas-de-chocolate":"Pepitas de chocolate",
-    "manzana":"Manzana",
-    "perejil":"Perejil"
+    "patata": "Patata",
+    "tres-croquetas": "Sobrasada y Queso de Maó / Pulpo y Cebolla Caramelizada / Pollo y Trufa",
+    "carne-bolonesa-picante": "Carne boloñesa picante",
+    "pepitas-de-chocolate": "Pepitas de chocolate",
+    "manzana": "Manzana",
+    "perejil": "Perejil"
   },
   "home": {
     "titulo1-p": "Conoce nuestras",
@@ -156,12 +156,12 @@
     "mency": "Mency",
     "golosa": "Golosa",
     "marlon_brando": "Marlon Brando",
-    "mediterranea":"Mediterránea"
+    "mediterranea": "Mediterránea"
   },
   "tapas": {
-    "patatas-bravas":"Patatas Bravas",
-    "lasania":"Lasaña",
-    "parmigiana":"Parmigiana",
+    "patatas-bravas": "Patatas Bravas",
+    "lasania": "Lasaña",
+    "parmigiana": "Parmigiana",
     "croqueta-de-patata": "Croqueta de patata (1 unidad)",
     "croqueta-de-pollo": "Croqueta de pollo (1 unidad)",
     "bomba": "Bomba (1 unidad)",
@@ -185,46 +185,47 @@
     "agua-sin-gas": "AGUA SIN GAS (50cl)",
     "agua-sin-gas2": "AGUA SIN GAS (1,5l)",
     "agua-con-gas": "Agua con gas (50cl)",
-    "cola-zero":"Coca-cola zero"
+    "cola-zero": "Coca-cola zero"
   },
   "vino": {
     "pinot": "Pinot",
     "merlot": "Merlot",
     "copa-vino": "Copa vino (de la casa)"
   },
-  "menu":{
-    "nuestras":"Nuestras",
-    "pizzas":"Pizzas",
-    "especiales":"Especiales",
-    "nuestros":"Nuestros",
-    "tapas":"Tapas",
-    "postres":"Postres",
-    "bebidas":"Bebidas",
-    "vinos":"Vinos",
-    "ingredientes":"ingredientes extra (Pescado/carne queso)"
+  "menu": {
+    "nuestras": "Nuestras",
+    "pizzas": "Pizzas",
+    "especiales": "Especiales",
+    "nuestros": "Nuestros",
+    "tapas": "Tapas",
+    "postres": "Postres",
+    "bebidas": "Bebidas",
+    "vinos": "Vinos",
+    "ingredientes-single": "Ingredientes extra",
+    "ingredientes": "Ingredientes extra (Pescado/carne/queso)"
   },
-  "contacto":{
-    "contacto":"Contacto",
-    "ubicacion":"ubicación",
-    "direccion":"Avenida, Camí de Maó, 4 ",
-    "pueblo":"Ciutadella de Menorca",
-    "horario":"horario",
-    "horario-abierto":"Abierto cada día excepto los Lunes",
-    "horarioVerano":"Abierto todos los días los meses de Junio, Julio y Agosto",
-    "hora-cierre":"de 18:00 a Cierre.",
-    "reparto":"Reparto en casco urbano",
-    "sin-costo-reparto":"Sin costo (a partir de las 20:00)",
-    "pago-tarjeta":"También acpetamos pago con tarjeta",
-    "desde-casa":"desde casa",
-    "telefonos-de-contacto":"telefonos de contacto",
-    "colaboracion":"En colaboración con",
-    "nombre-colaboracion":"bar-cafetería bananas"
+  "contacto": {
+    "contacto": "Contacto",
+    "ubicacion": "ubicación",
+    "direccion": "Avenida, Camí de Maó, 4 ",
+    "pueblo": "Ciutadella de Menorca",
+    "horario": "horario",
+    "horario-abierto": "Abierto cada día excepto los Lunes",
+    "horarioVerano": "Abierto todos los días los meses de Junio, Julio y Agosto",
+    "hora-cierre": "de 18:00 a Cierre.",
+    "reparto": "Reparto en casco urbano",
+    "sin-costo-reparto": "Sin costo (a partir de las 20:00)",
+    "pago-tarjeta": "También acpetamos pago con tarjeta",
+    "desde-casa": "desde casa",
+    "telefonos-de-contacto": "telefonos de contacto",
+    "colaboracion": "En colaboración con",
+    "nombre-colaboracion": "bar-cafetería bananas"
   },
-  "footer":{
-    "reservacion":"Reservación",
-    "llamar":"Llamar",
-    "dias":"Martes-Domingo: 18:00 - Cierre",
-    "cierres":"Lunes: Cerrado",
-    "derechos":"Todos los derechos reservados"
+  "footer": {
+    "reservacion": "Reservación",
+    "llamar": "Llamar",
+    "dias": "Martes-Domingo: 18:00 - Cierre",
+    "cierres": "Lunes: Cerrado",
+    "derechos": "Todos los derechos reservados"
   }
 }
