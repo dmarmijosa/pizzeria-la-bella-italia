@@ -489,12 +489,12 @@
     },
     {
       "nombre": "tapas.lasania",
-      "precio": "7,00€",
+      "precio": "8,00€",
       "promocion": false
     },
     {
-      "nombre": "tapas.parmigiana",
-      "precio": "6,50€",
+      "nombre": "tapas.anillos-de-cebolla",
+      "precio": "3,50€",
       "promocion": false
     },
     {
@@ -505,12 +505,12 @@
         "ingredientes.patata",
         "ingredientes.parmesano"
       ],
-      "precio": "1,30€",
+      "precio": "1,50€",
       "promocion": false
     },
     {
       "nombre": "tapas.croqueta-de-pollo",
-      "precio": "1,30€",
+      "precio": "1,50€",
       "promocion": false
     },
     {
@@ -524,12 +524,12 @@
     },
     {
       "nombre": "tapas.alitas-de-pollo-picante",
-      "precio": "4,20€",
+      "precio": "5,50€",
       "promocion": false
     },
     {
       "nombre": "tapas.alitas-de-pollo-barbacoa",
-      "precio": "4,50€",
+      "precio": "5,50€",
       "promocion": false
     },
     {
@@ -542,9 +542,10 @@
       "precio": "3,50€",
       "promocion": false
     },
+
     {
-      "nombre": "tapas.anillos-de-cebolla",
-      "precio": "3,50€",
+      "nombre": "tapas.ensalda-caprese",
+      "precio": "8,00€",
       "promocion": false
     }
   ],
