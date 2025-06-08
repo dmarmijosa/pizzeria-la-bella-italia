@@ -3,7 +3,7 @@
     {
       "nombre": "nuestras-pizzas.margarita",
       "ingredientes": ["ingredientes.tomate", "ingredientes.mozarella"],
-      "precio": "7,50€",
+      "precio": "8,00€",
       "promocion": false
     },
     {
@@ -14,7 +14,7 @@
         "ingredientes.ajo",
         "ingredientes.oregano"
       ],
-      "precio": "7,50€",
+      "precio": "8,00€",
       "promocion": false
     },
     {
@@ -24,7 +24,7 @@
         "ingredientes.mozarella",
         "ingredientes.salami-picante"
       ],
-      "precio": "9,00€",
+      "precio": "9,20€",
       "promocion": false
     },
     {
@@ -35,17 +35,7 @@
         "ingredientes.anchoa",
         "ingredientes.oliva-negra"
       ],
-      "precio": "9,00€",
-      "promocion": false
-    },
-    {
-      "nombre": "nuestras-pizzas.torino",
-      "ingredientes": [
-        "ingredientes.tomate",
-        "ingredientes.mozarella",
-        "ingredientes.champinones-frescos"
-      ],
-      "precio": "8,50€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -55,7 +45,7 @@
         "ingredientes.mozarella",
         "ingredientes.jamon-york"
       ],
-      "precio": "8.50€",
+      "precio": "9,00€",
       "promocion": false
     },
     {
@@ -67,7 +57,7 @@
         "ingredientes.maiz",
         "ingredientes.pina"
       ],
-      "precio": "9,20€",
+      "precio": "9,80€",
       "promocion": false
     },
     {
@@ -78,7 +68,7 @@
         "ingredientes.pesto",
         "ingredientes.atun"
       ],
-      "precio": "9,00€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -91,7 +81,7 @@
         "ingredientes.calabacin",
         "ingredientes.champinones-frescos"
       ],
-      "precio": "9,40€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -104,7 +94,7 @@
         "ingredientes.ricotta",
         "ingredientes.queso-de-cabra"
       ],
-      "precio": "9,00€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -115,7 +105,7 @@
         "ingredientes.atun",
         "ingredientes.cebolla"
       ],
-      "precio": "9,00€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -126,7 +116,7 @@
         "ingredientes.jamon-york",
         "ingredientes.champinones-frescos"
       ],
-      "precio": "9,00€",
+      "precio": "9,50€",
       "promocion": false
     },
 
@@ -138,7 +128,7 @@
         "ingredientes.pollo",
         "ingredientes.gorgonzola"
       ],
-      "precio": "9,00€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -160,7 +150,7 @@
         "ingredientes.gambas",
         "ingredientes.champinones-frescos"
       ],
-      "precio": "9,70€",
+      "precio": "10.00€",
       "promocion": false
     },
     {
@@ -171,7 +161,7 @@
         "ingredientes.beicon",
         "ingredientes.huevo"
       ],
-      "precio": "9,00€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -185,7 +175,7 @@
         "ingredientes.huevo",
         "ingredientes.champinones-frescos"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -198,7 +188,7 @@
         "ingredientes.parmesano",
         "ingredientes.aceite-de-oliva"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -208,7 +198,7 @@
         "ingredientes.mozarella",
         "ingredientes.carne-con-pimiento"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -241,12 +231,12 @@
         "ingredientes.champinones-frescos",
         "ingredientes.huevo"
       ],
-      "precio": "9,70€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
       "nombre": "nuestras-pizzas.pizza-familiar",
-      "precio": "14,00€",
+      "precio": "18,00€",
       "promocion": false
     }
   ],
@@ -262,7 +252,7 @@
         "ingredientes.pimienta-negra",
         "ingredientes.parmesano"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -271,10 +261,9 @@
         "ingredientes.tomate",
         "ingredientes.mozarella",
         "ingredientes.sobrasada",
-        "ingredientes.miel",
-        "ingredientes.oregano"
+        "ingredientes.miel"
       ],
-      "precio": "9,40€",
+      "precio": "9,60€",
       "promocion": false
     },
     {
@@ -287,7 +276,7 @@
         "ingredientes.tomate-cherry",
         "ingredientes.aceite-de-oliva"
       ],
-      "precio": "10,00€",
+      "precio": "11,00€",
       "promocion": false
     },
     {
@@ -299,7 +288,7 @@
         "ingredientes.4-quesos",
         "ingredientes.olivas-negras"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -321,7 +310,7 @@
         "ingredientes.mozarella",
         "ingredientes.carne-de-kebad"
       ],
-      "precio": "9,00€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -334,7 +323,7 @@
         "ingredientes.atun",
         "ingredientes.oliva"
       ],
-      "precio": "10,00€",
+      "precio": "11,00€",
       "promocion": false
     },
     {
@@ -346,7 +335,7 @@
         "ingredientes.champinones",
         "ingredientes.curry"
       ],
-      "precio": "9,40€",
+      "precio": "9,80€",
       "promocion": false
     },
     {
@@ -357,13 +346,7 @@
         "ingredientes.huevo",
         "ingredientes.champinones"
       ],
-      "precio": "9,50€",
-      "promocion": false
-    },
-    {
-      "nombre": "pizzas-especiales.pizza-nutella",
-      "ingredientes": ["ingredientes.pizza-nutella"],
-      "precio": "7,00€",
+      "precio": "9,80€",
       "promocion": false
     },
     {
@@ -375,7 +358,7 @@
         "ingredientes.miel",
         "ingredientes.nueces"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -386,7 +369,7 @@
         "ingredientes.gambas",
         "ingredientes.atun"
       ],
-      "precio": "9,50€",
+      "precio": "10,00€",
       "promocion": false
     },
     {
@@ -396,7 +379,7 @@
         "ingredientes.pesto",
         "ingredientes.mozarella"
       ],
-      "precio": "9,30€",
+      "precio": "9,50€",
       "promocion": false
     },
     {
@@ -550,52 +533,51 @@
       "promocion": false
     },
     {
-      "nombre":"tapas.alitas-de-pollo-picante",
-      "precio":"4,20€",
-      "promocion":false
+      "nombre": "tapas.alitas-de-pollo-picante",
+      "precio": "4,20€",
+      "promocion": false
     },
     {
-      "nombre":"tapas.alitas-de-pollo-barbacoa",
-      "precio":"4,50€",
-      "promocion":false
+      "nombre": "tapas.alitas-de-pollo-barbacoa",
+      "precio": "4,50€",
+      "promocion": false
     },
     {
-      "nombre":"tapas.nuggets-de-pollo",
-      "precio":"3,50€",
-      "promocion":false
+      "nombre": "tapas.nuggets-de-pollo",
+      "precio": "3,50€",
+      "promocion": false
     },
     {
-      "nombre":"tapas.patatas-fritas",
-      "precio":"3,50€",
-      "promocion":false
+      "nombre": "tapas.patatas-fritas",
+      "precio": "3,50€",
+      "promocion": false
     },
     {
-      "nombre":"tapas.anillos-de-cebolla",
-      "precio":"3,50€",
-      "promocion":false
+      "nombre": "tapas.anillos-de-cebolla",
+      "precio": "3,50€",
+      "promocion": false
     }
   ],
-  "postres":[
+  "postres": [
     {
       "nombre": "postres-caseros.tiramisu",
       "precio": "3,50€",
       "promocion": false
     },
-   
+
     {
       "nombre": "postres-caseros.panacotta",
       "precio": "3,50€",
       "promocion": false
     },
-   
+
     {
       "nombre": "postres-caseros.bomba-frita",
       "precio": "1,40€",
       "promocion": false
     }
-   
   ],
-  "bebidas":[
+  "bebidas": [
     {
       "nombre": "bebidas.cerveza-italiana",
       "precio": "2,80€",
@@ -642,7 +624,7 @@
       "promocion": false
     }
   ],
-  "vino":[
+  "vino": [
     {
       "nombre": "vino.pinot",
       "precio": "10,00€",
