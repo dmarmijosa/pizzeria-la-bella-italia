@@ -555,28 +555,32 @@
       "precio": "3,50€",
       "promocion": false
     },
-
     {
-      "nombre": "postres-caseros.panacotta",
-      "precio": "3,50€",
+      "nombre": "postres-caseros.bomba-frita",
+      "precio": "1,50€",
+      "promocion": false
+    },
+    {
+      "nombre": "pizzas-especiales.pizza-nutella",
+      "precio": "7,00€",
       "promocion": false
     },
 
     {
-      "nombre": "postres-caseros.bomba-frita",
-      "precio": "1,40€",
+      "nombre": "postres-caseros.panacotta",
+      "precio": "3,50€",
       "promocion": false
     }
   ],
   "bebidas": [
     {
       "nombre": "bebidas.cerveza-italiana",
-      "precio": "2,80€",
+      "precio": "3,00€",
       "promocion": false
     },
     {
       "nombre": "bebidas.cerveza-estella",
-      "precio": "1,60€",
+      "precio": "1,70€",
       "promocion": false
     },
     {
