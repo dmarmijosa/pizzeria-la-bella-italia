@@ -565,10 +565,14 @@
       "precio": "7,00€",
       "promocion": false
     },
-
     {
       "nombre": "postres-caseros.panacotta",
       "precio": "3,50€",
+      "promocion": false
+    },
+    {
+      "nombre": "postres-caseros.tarta-zanahoria",
+      "precio": "3,00€",
       "promocion": false
     }
   ],
